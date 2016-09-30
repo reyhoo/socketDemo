@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="white_alpha">#00ffffff</color>
+    <color name="white_half_alpha">#80ffffff</color>
+
+    <!--主界面主调色  -->
+    <color name="main_bg">#3f3c51</color>
+    <color name="main_bg_half_alpha">#803f3c51</color>
+    <!--主界面主调色  -->
+    <color name="black">#000000</color>
+
+    <!--线的颜色  -->
+    <color name="line_color_grey">#dfdfdf</color>
+
+    <!-- 表单文字颜色 -->
+    <color name="talk_form_text">#666666</color>
+    <color name="talk_form_gap">#ebebeb</color>
+
+    <!-- 半透明 -->
+    <color name="transparent">#50000000</color>
+
+    <color name="white_f4">#f4f4f4</color>
+    <color name="white_f7">#F7F7F7</color>
+
+    <color name="talk_green">#4fc806</color>
+    <color name="talk_grey">#ebebeb</color>
+    <color name="talk_text_black">#333333</color>
+    <color name="talk_text_disabled">#aaaaaa</color>
+    <color name="talk_text_white">#ffffff</color>
+    <color name="talk_text_red">#ff6868</color>
+    <color name="talk_text_orange">#fe941c</color>
+    <color name="talk_title">#999999</color>
+    <color name="test_color_red">#FF0000</color>
+    <color name="test_color_bule">#0000FF</color>
+
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+
+    <color name="scan_qrcode_corner_bg">#FF6868</color>
+    <color name="scan_qrcode_text_hint">#999999</color>
+
+    <color name="assi_box_scan_befor_bg">#60000000</color>
+    <color name="assi_box_scan_result_bg">#B0000000</color>
+
+    <color name="assi_normal_channel_1">#ECB408</color>
+    <color name="assi_normal_channel_2">#0DBEC5</color>
+    <color name="assi_normal_channel_3">#80C119</color>
+    <color name="assi_normal_channel_4">#5F9BED</color>
+    <color name="assi_normal_channel_5">#BDC311</color>
+    <color name="assi_normal_channel_6">#F37733</color>
+</resources>

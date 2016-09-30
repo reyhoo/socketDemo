@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/user_account_edit_text_bg_shape"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/login_mobile_icon" />
+
+            <EditText
+                android:id="@+id/login_mobile_phone_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="手机号"
+                android:inputType="phone"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="#C7C7C7"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/content_textview_size_16" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/login_mobile_input_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/input_delete_btn_selector" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfdfdf"
+            android:textCursorDrawable="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/login_password_icon" />
+
+            <EditText
+                android:id="@+id/login_password_et"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:hint="密码"
+                android:inputType="textPassword"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="#C7C7C7"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/content_textview_size_16" />
+
+            <ImageView
+                android:id="@+id/login_password_input_delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:src="@drawable/input_delete_btn_selector" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_logining_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/user_account_red_btn_shape"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="@dimen/content_textview_size_16" />
+
+    <Button
+        android:id="@+id/login_to_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/user_account_white_btn_shape"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp"
+        android:text="通过手机号注册"
+        android:textColor="#656565"
+        android:textSize="@dimen/content_textview_size_16" />
+
+    <TextView
+        android:id="@+id/login_reset_password_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:text="忘记密码"
+        android:textSize="@dimen/content_textview_size_16" />
+
+</LinearLayout>

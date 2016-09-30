@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/msg_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/msg_et"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:textCursorDrawable="@null"
+            android:textColor="#000"
+            android:background="@drawable/user_account_edit_text_bg_shape" />
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/user_account_red_btn_shape"
+            android:text="send" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 标题栏中间字体 -->
+    <dimen name="title_textview_size">18dp</dimen>
+    <dimen name="content_textview_size_16">16dp</dimen>
+    <dimen name="content_textview_size_14">14dp</dimen>
+    <dimen name="content_textview_size_15">15dp</dimen>
+    <dimen name="content_textview_size_12">12dp</dimen>
+
+    <!-- 主界面banner图片的高,宽度 -->
+    <dimen name="main_head_banner_width">360dp</dimen>
+    <dimen name="main_head_banner_height">165dp</dimen>
+    <dimen name="main_head_banner_head_point_padding">7dp</dimen>
+
+    <!-- 主界面每一个item的高，宽。这个大小只代表比例,不表示item的实际大小 -->
+    <dimen name="main_item_simple_width">332px</dimen>
+    <dimen name="main_item_simple_height">279px</dimen>
+
+    <!-- 主界面item外边距 -->
+    <dimen name="main_item_margin">11.5dp</dimen>
+    <!-- 主界面item的间距 -->
+    <dimen name="main_item_spacing">5dp</dimen>
+    <dimen name="main_behindOffset">65dp</dimen>
+    <dimen name="menu_shadow_width">24dp</dimen>
+    <dimen name="title_bar_height">48dp</dimen>
+
+    <!-- 对话界面 -->
+    <!-- 对话控件 -->
+    <dimen name="talk_icon_to_left">15dp</dimen>
+    <dimen name="talk_icon_width">42dp</dimen>
+    <dimen name="talk_text_to_icon">25dp</dimen>
+    <dimen name="talk_text_to_right">50dp</dimen>
+    <dimen name="talk_text_size">14dp</dimen>
+    <dimen name="talk_text_maxwidth">200dp</dimen>
+    <dimen name="talk_text_margin">10dp</dimen>
+    <dimen name="talk_background_to_left">-3dp</dimen>
+    <dimen name="talk_image_confirm_title">16dp</dimen>
+    <dimen name="talk_image_confirm_body_width">268dp</dimen>
+    <dimen name="talk_image_confirm_title_to_top">14dp</dimen>
+    <dimen name="talk_button_width">102dp</dimen>
+    <dimen name="talk_button_height">33dp</dimen>
+    <dimen name="talk_bottom_height">48dp</dimen>
+    <dimen name="talk_bottom2_height">259dp</dimen>
+    <dimen name="talk_edit_height">28dp</dimen>
+    <dimen name="talk_tip_height">27dp</dimen>
+    <dimen name="talk_widget_text_width_normal">60dp</dimen>
+    <dimen name="talk_widget_text_width_large">150dp</dimen>
+    <item name="talk_text_width_to_add" type="integer">90</item>
+    <item name="talk_text_height_to_add" type="integer">60</item>
+    <!-- 表单高度 -->
+    <dimen name="talk_form_imp_height">42dp</dimen>
+    <dimen name="talk_form_imp_label_toleft">14dp</dimen>
+
+    <!-- Assistant dimens start-->
+    <dimen name="normal_dialog_width">280dp</dimen>
+    <dimen name="loading_dialog_width">200dp</dimen>
+    <dimen name="loading_dialog_height">30dp</dimen>
+
+    <dimen name="add_box_dialog_width">150dp</dimen>
+
+    <dimen name="circle_dialog_width">252dp</dimen>
+    <dimen name="circle_dialog_height">140dp</dimen>
+
+    <dimen name="smart_room_grid_view_horizontalSpacing">50dp</dimen>
+    <dimen name="smart_room_grid_view_marginRight_Left">30dp</dimen>
+    <!-- Assistant dimens end -->
+</resources>

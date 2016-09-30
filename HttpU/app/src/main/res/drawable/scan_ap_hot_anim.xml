@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    
+    <item android:drawable="@drawable/scan_ap_hot_01" android:duration="800"></item>
+    <item android:drawable="@drawable/scan_ap_hot_02" android:duration="800"></item>
+    <item android:drawable="@drawable/scan_ap_hot_03" android:duration="800"></item>
+    <item android:drawable="@drawable/scan_ap_hot_04" android:duration="800"></item>
+</animation-list>
