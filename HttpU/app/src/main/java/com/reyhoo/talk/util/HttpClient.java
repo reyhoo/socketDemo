@@ -30,7 +30,7 @@ public class HttpClient {
     private static final String METHOD_POST = "POST";
 
     private static final String POST_CONTENT_TYPE = "application/x-www-form-urlencoded";
-    private static final String FILEUPLOAD_CONTENT_TYPE = "multipart/form-data; boundary=";
+    private static final String FILE_UPLOAD_CONTENT_TYPE = "multipart/form-data; boundary=";
 
     private static final String boundaryStart = "--------FormBoundary";
     private static final String boundaryEnd = "--";
@@ -183,7 +183,7 @@ public class HttpClient {
         String boundaryBody = getRandomString(10);
         final String boundary = boundaryStart + boundaryBody;
         final Map<String, String> headers = new HashMap<>();
-        headers.put("Content-Type", FILEUPLOAD_CONTENT_TYPE + boundary.substring(2));
+        headers.put("Content-Type", FILE_UPLOAD_CONTENT_TYPE + boundary.substring(2));
         getThreadPool().execute(new Runnable() {
             @Override
             public void run() {
